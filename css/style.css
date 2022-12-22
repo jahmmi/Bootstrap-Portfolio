@@ -1,6 +1,41 @@
-.profile{
+.profile-image:hover{
+    -moz-box-shadow: 5px 5px 5px 5px #424244;
+    -webkit-box-shadow: 5px 5px 5px 5px #424244;
+    box-shadow: 5px 5px 5px 5px #424244;
+    
+}.profile-image{
     width: 300px;
     height: 300px;
     border-radius: 15%;
+
     
+}.listofskills{
+    border-bottom: 2px solid #000;
+}.aboutme-header{
+    border-bottom: 2px solid #000;
+}.contactme-header{
+    border-bottom: 2px solid #000;
+    
+}.footer{
+    border-top: 2px solid #000;
+    text-align: center;
+    -moz-box-shadow: 5px 5px 5px 5px #424244;
+    -webkit-box-shadow: 5px 5px 5px 5px #424244;
+    box-shadow: 5px 5px 5px 5px #424244;
+}#button:hover{
+    -moz-box-shadow: 5px 5px 5px 5px #424244;
+    -webkit-box-shadow: 5px 5px 5px 5px #424244;
+    box-shadow: 5px 5px 5px 5px #424244;
+}.nav-item:hover{
+    -moz-box-shadow: 5px 5px 5px 5px #424244;
+    -webkit-box-shadow: 5px 5px 5px 5px #424244;
+    box-shadow: 5px 5px 5px 5px #424244;
+}.nav-item{
+    border-radius: 30%;
+}.lead{
+    font-size: 20px;
+}.card:hover{
+    -moz-box-shadow: 5px 5px 5px 5px #424244;
+    -webkit-box-shadow: 5px 5px 5px 5px #424244;
+    box-shadow: 5px 5px 5px 5px #424244; 
 }
