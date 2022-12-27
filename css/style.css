@@ -1,10 +1,12 @@
 .display-4 {
+    /* Name */
     font-style: italic;
     text-transform: uppercase;
-    font-family:fantasy;
+    font-family: fantasy;
 }
 
 .profile-image:hover {
+    /* Profile Image */
     -moz-box-shadow: 5px 5px 5px 5px #424244;
     -webkit-box-shadow: 5px 5px 5px 5px #424244;
     box-shadow: 5px 5px 5px 5px #424244;
@@ -12,6 +14,7 @@
 }
 
 .profile-image {
+    /* Profile Image */
     width: 300px;
     height: 300px;
     border-radius: 15%;
@@ -20,26 +23,60 @@
 }
 
 .listofskills {
+    /* List of Skills */
     border-bottom: 2px solid #000;
+    font-family: fantasy;
 }
 
 .aboutme-header {
+    /* About Me Header */
     border-bottom: 2px solid #000;
+    font-family: fantasy;
+}
+
+.aboutme {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .contactme-header {
+    /* Contact Me Header */
     border-bottom: 2px solid #000;
+    font-family: fantasy;
+}.contactme-header:active{
+    box-shadow: 2px 2px 5px #fc894d;
+}
 
+.contactme {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.email,
+.github {
+    color: #000;
+}
+
+.github:hover {
+    color: #0011ff;
+    text-decoration: none;
+}
+.email:hover{
+    color: #0011ff;
+    text-decoration:line;
 }
 
 .footer {
+    /* Footer */
     border-top: 2px solid #000;
     text-align: center;
     margin: 5%;
+    font-family:'Times New Roman', Times, serif;
 
 }
 
 #button:hover {
+    /* Button see project */
     -moz-box-shadow: 5px 5px 5px 5px #424244;
     -webkit-box-shadow: 5px 5px 5px 5px #424244;
     box-shadow: 5px 5px 5px 5px #424244;
@@ -52,11 +89,13 @@
 }
 
 .nav-item {
+    /* Navbar items */
     border-radius: 30%;
 }
 
-.lead {
+.lead { /* text under image */
     font-size: 20px;
+    font-family: cursive;
 }
 
 .card:hover {
@@ -66,6 +105,7 @@
 }
 
 .navbar {
+    /* Navbar */
     overflow: hidden;
     background-color: #666666;
     position: fixed;
@@ -103,6 +143,27 @@
 
 .img-fluid {
     border-radius: 15%;
-}.scriptJS {
-float: right;
+}
+.list-group-item {
+    /* skills text */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.mywork,.card-title,.header-text {
+    /* my work */
+    font-family: fantasy;
+}
+.card-text{
+    font-family:'Times New Roman', Times, serif
+}
+/*all headers */
+.listofskills:hover,
+.aboutme-header:hover,
+.contactme-header:hover,
+.header-text:hover,
+.footer:hover,
+.mywork:hover{
+    font-family: 'Times New Roman', Times, serif;
+
 }
