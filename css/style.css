@@ -1,51 +1,81 @@
-.profile-image:hover{
+.display-4 {
+    font-style: italic;
+    text-transform: uppercase;
+    font-family:fantasy;
+}
+
+.profile-image:hover {
     -moz-box-shadow: 5px 5px 5px 5px #424244;
     -webkit-box-shadow: 5px 5px 5px 5px #424244;
     box-shadow: 5px 5px 5px 5px #424244;
-    
-}.profile-image{
+
+}
+
+.profile-image {
     width: 300px;
     height: 300px;
     border-radius: 15%;
 
-    
-}.listofskills{
+
+}
+
+.listofskills {
     border-bottom: 2px solid #000;
-}.aboutme-header{
+}
+
+.aboutme-header {
     border-bottom: 2px solid #000;
-}.contactme-header{
+}
+
+.contactme-header {
     border-bottom: 2px solid #000;
-    
-}.footer{
+
+}
+
+.footer {
     border-top: 2px solid #000;
     text-align: center;
     margin: 5%;
 
-}#button:hover{
+}
+
+#button:hover {
     -moz-box-shadow: 5px 5px 5px 5px #424244;
     -webkit-box-shadow: 5px 5px 5px 5px #424244;
     box-shadow: 5px 5px 5px 5px #424244;
-}.nav-item:hover{
+}
+
+.nav-item:hover {
     -moz-box-shadow: 5px 5px 5px 5px #424244;
     -webkit-box-shadow: 5px 5px 5px 5px #424244;
     box-shadow: 5px 5px 5px 5px #424244;
-}.nav-item{
+}
+
+.nav-item {
     border-radius: 30%;
-}.lead{
+}
+
+.lead {
     font-size: 20px;
-}.card:hover{
+}
+
+.card:hover {
     -moz-box-shadow: 5px 5px 5px 5px #424244;
     -webkit-box-shadow: 5px 5px 5px 5px #424244;
-    box-shadow: 5px 5px 5px 5px #424244; 
-}.navbar {
+    box-shadow: 5px 5px 5px 5px #424244;
+}
+
+.navbar {
     overflow: hidden;
     background-color: #666666;
     position: fixed;
     top: 0;
     width: 100%;
     display: inline;
-    
-  }.navbar a {
+
+}
+
+.navbar a {
     float: left;
     display: block;
     color: #eeeeee;
@@ -53,18 +83,26 @@
     padding: 15px 18px;
     text-decoration: none;
     font-size: 18px;
-  }.navbar a:hover {
+}
+
+.navbar a:hover {
     color: #1c87c9;
-  }.container-images{
+}
+
+.container-images {
     margin: 5%;
-    border-top:2px solid black ;
-    
-  }.img-fluid:hover{
+    border-top: 2px solid black;
+
+}
+
+.img-fluid:hover {
     -moz-box-shadow: 5px 5px 5px 5px #424244;
     -webkit-box-shadow: 5px 5px 5px 5px #424244;
-    box-shadow: 5px 5px 5px 5px #424244; 
-  }.img-fluid{
-    border-radius: 15%;
-  }
+    box-shadow: 5px 5px 5px 5px #424244;
+}
 
-  
+.img-fluid {
+    border-radius: 15%;
+}.scriptJS {
+float: right;
+}
