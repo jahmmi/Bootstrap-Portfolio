@@ -36,3 +36,26 @@ This JS code show the message for each part of the day!
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
+ ## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Start in browser
+
+```bash
+ code .
+```
