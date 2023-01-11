@@ -26,7 +26,11 @@ if (hourNow > 18) {
 }
 
 document.write('<h3>' + greeting + '</h3>');
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> e21d684956400f42c9eac1e23a7e83a227ea8c78
 ```
 This JS code show the message for each part of the day!
 
@@ -37,9 +41,16 @@ This JS code show the message for each part of the day!
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
+<<<<<<< HEAD
 
  ## 🛠 Skills
 Javascript, HTML, CSS...
+=======
+ ## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+>>>>>>> e21d684956400f42c9eac1e23a7e83a227ea8c78
 ## Run Locally
 
 Clone the project
@@ -59,4 +70,7 @@ Start in browser
 ```bash
  code .
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> e21d684956400f42c9eac1e23a7e83a227ea8c78
